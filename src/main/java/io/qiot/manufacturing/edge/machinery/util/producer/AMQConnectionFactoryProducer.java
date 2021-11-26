@@ -1,5 +1,6 @@
 package io.qiot.manufacturing.edge.machinery.util.producer;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.UUID;
@@ -19,6 +20,7 @@ import org.apache.activemq.artemis.api.core.TransportConfiguration;
 import org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnectorFactory;
 import org.apache.activemq.artemis.core.remoting.impl.netty.TransportConstants;
 import org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory;
+import org.apache.activemq.artemis.jndi.ActiveMQInitialContextFactory;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.slf4j.Logger;
 
@@ -29,6 +31,9 @@ import io.qiot.manufacturing.edge.machinery.service.machinery.MachineryService;
  *
  */
 @Singleton
+@RegisterForReflection(targets = {
+        ActiveMQInitialContextFactory.class
+})
 public class AMQConnectionFactoryProducer {
 
     @Inject
