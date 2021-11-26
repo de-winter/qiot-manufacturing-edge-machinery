@@ -13,9 +13,9 @@
         <version>1.0.0</version>
     </parent>
     <scm>
-        <connection>scm:git:https://github.com/qiot-project/qiot-manufacturing-edge-machinery.git</connection>
-        <developerConnection>scm:git:https://github.com/qiot-project/qiot-manufacturing-edge-machinery.git/</developerConnection>
-        <url>https://github.com/qiot-project/qiot-manufacturing-edge-machinery</url>
+        <connection>scm:git:https://github.com/de-winter/qiot-manufacturing-edge-machinery.git</connection>
+        <developerConnection>scm:git:https://github.com/de-winter/qiot-manufacturing-edge-machinery.git/</developerConnection>
+        <url>https://github.com/de-winter/qiot-manufacturing-edge-machinery</url>
         <tag>HEAD</tag>
     </scm>
     <repositories>
@@ -160,7 +160,7 @@
             <properties>
                 <jkube.environment>prod</jkube.environment>
                 <jkube.build.strategy>jib</jkube.build.strategy>
-                <jkube.generator.name>quay.io/qiotmanufacturing/edge-machinery:${project.version}</jkube.generator.name>
+                <jkube.generator.name>quay.io/dewinter/edge-machinery:${project.version}</jkube.generator.name>
             </properties>
         </profile>
         <profile>
