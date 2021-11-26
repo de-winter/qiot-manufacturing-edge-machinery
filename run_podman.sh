@@ -8,6 +8,6 @@ podman run -it --rm \
 -e  FACILITY_MANAGER_SERVICE_URL=https://facility-manager-service-factory.apps.hackfest.vop.viada.de \
 -e  TS_PATH=/bootstrap/truststore.p12 \
 -e  BROKER_SSL=TRUE \
--e  BROKER_HOST=https://broker-service-edge-0-svc-rte-factory.apps.hackfest.vop.viada.de \
+-e  BROKER_HOST=broker-service-edge-0-svc-rte-factory.apps.hackfest.vop.viada.de \
 -e  BROKER_PORT=443 \
  quay.io/dewinter/edge-machinery:1.0.0-SNAPSHOT
