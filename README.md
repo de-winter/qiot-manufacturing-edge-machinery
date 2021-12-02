@@ -25,4 +25,4 @@ run_podman.sh on Edge Device with own truststore folder structure, OpenShift URL
 
 Added annotation in AMQConnectionFactoryProducer
 
-https://github.com/de-winter/qiot-manufacturing-edge-machinery/commit/476867bc5b6ebc8c1e4ed383cb12c69002791863
+https://github.com/de-winter/qiot-manufacturing-edge-machinery/commit/476867bc5b6ebc8c1e4ed383cb12c69002791863#diff-a6e7c07197fd7bc7da4db228c9d02de597f0f60a845b2373fedf752e3d047471
