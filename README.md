@@ -24,3 +24,5 @@ run_podman.sh on Edge Device with own truststore folder structure, OpenShift URL
 ## Changes made
 
 Added annotation in AMQConnectionFactoryProducer
+
+SHA: 476867bc5b6ebc8c1e4ed383cb12c69002791863
