@@ -19,3 +19,8 @@ Place generated truststore on Edge Device
 Run build.sh with Image Repository credentials
 
 run_podman.sh on Edge Device with own truststore folder structure, OpenShift URLs, Container Image
+
+
+## Changes made
+
+Added annotation in AMQConnectionFactoryProducer
